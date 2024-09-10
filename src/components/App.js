@@ -26,7 +26,7 @@ const App = () => {
         type="email"
         onChange={(e) => dispatch(addEmail(e.target.value))}
       />
-      <p>Current values in store:</p>
+      <p className="output">Current values in store:</p>
       <p>Name: {userName}</p>
       <p>Email: {email}</p>
     </div>
